@@ -1,15 +1,14 @@
 # SocialOps
 
-I built SocialOps to make social publishing a deliberate workflow: configure a workspace, connect a Meta Page, generate campaign content, review it, and publish approved posts.
+SocialOps is a social-publishing flow inside the Aerovisus tools workspace. Sign in, connect a Meta Page, generate campaign content, review the draft, and publish the approved post.
 
-## Build decisions
+## The publishing decision
 
-I keep generation and publishing as separate steps, with approval in between. A draft does not go out simply because it was generated; the person running the workspace gets a clear review point first.
+Generating a post and publishing it are separate actions. Review comes in between, so a generated draft does not go out without someone checking it.
 
-I structure the workflow as Configure → Generate → Publish. I keep this repository to project notes and links; it does not contain application source.
+The public manager describes a secure sign-in and the configure, generate, and publish workflow. This repository contains project notes only; it does not publish application source.
 
 ## Links
 
 - [Social Media Manager](https://www.aerovisus.com/tools/social-media/)
-- [SocialOps project address](https://socialops.aerovisus.com)
-- [Portfolio project notes](https://portfolio.aerovisus.com/#socialops)
+- [Portfolio notes](https://portfolio.aerovisus.com/#socialops)
